@@ -1,0 +1,56 @@
+C:\Users\FaKe\source\repos\valutebank\valutebank\obj\Debug\valutebank.csproj.AssemblyReference.cache
+C:\Users\FaKe\source\repos\valutebank\valutebank\obj\Debug\valutebank.Properties.Resources.resources
+C:\Users\FaKe\source\repos\valutebank\valutebank\obj\Debug\valutebank.View.MainView.resources
+C:\Users\FaKe\source\repos\valutebank\valutebank\obj\Debug\valutebank.csproj.GenerateResource.cache
+C:\Users\FaKe\source\repos\valutebank\valutebank\obj\Debug\valutebank.csproj.CoreCompileInputs.cache
+C:\Users\FaKe\source\repos\valutebank\valutebank\bin\Debug\valutebank.exe.config
+C:\Users\FaKe\source\repos\valutebank\valutebank\bin\Debug\valutebank.exe
+C:\Users\FaKe\source\repos\valutebank\valutebank\bin\Debug\valutebank.pdb
+C:\Users\FaKe\source\repos\valutebank\valutebank\obj\Debug\valutebank.exe
+C:\Users\FaKe\source\repos\valutebank\valutebank\obj\Debug\valutebank.pdb
+C:\Users\FaKe\source\repos\valutebank\valutebank\obj\Debug\valutebank.View.AddCryptoValute.resources
+C:\Users\FaKe\source\repos\valutebank\valutebank\obj\Debug\valutebank.View.AddNewUser.resources
+C:\Users\BdE\Desktop\valutebank\valutebank\obj\Debug\valutebank.csprojAssemblyReference.cache
+C:\Users\BdE\Desktop\valutebank\valutebank\obj\Debug\valutebank.Properties.Resources.resources
+C:\Users\BdE\Desktop\valutebank\valutebank\obj\Debug\valutebank.View.AddCryptoValute.resources
+C:\Users\BdE\Desktop\valutebank\valutebank\obj\Debug\valutebank.View.AddNewUser.resources
+C:\Users\BdE\Desktop\valutebank\valutebank\obj\Debug\valutebank.View.MainView.resources
+C:\Users\BdE\Desktop\valutebank\valutebank\obj\Debug\valutebank.csproj.GenerateResource.cache
+C:\Users\BdE\Desktop\valutebank\valutebank\obj\Debug\valutebank.csproj.CoreCompileInputs.cache
+C:\Users\BdE\Desktop\valutebank\valutebank\obj\Debug\valutebank.exe
+C:\Users\BdE\Desktop\valutebank\valutebank\obj\Debug\valutebank.pdb
+C:\Users\BdE\Desktop\valutebank\valutebank\bin\Debug\valutebank.exe.config
+C:\Users\BdE\Desktop\valutebank\valutebank\bin\Debug\valutebank.exe
+C:\Users\BdE\Desktop\valutebank\valutebank\bin\Debug\valutebank.pdb
+C:\Users\FaKe\source\repos\valutebank\valutebank\obj\Debug\valutebank.View.CreateBalance.resources
+C:\Users\BdE\Desktop\valutebank\valutebank\obj\Debug\valutebank.View.CreateBalance.resources
+C:\Users\FaKe\source\repos\valutebank\valutebank\obj\Debug\valutebank.View.CryptoCurrencyTransfer.resources
+C:\Users\BdE\Desktop\valutebank\valutebank\obj\Debug\valutebank.View.CryptoCurrencyTransfer.resources
+C:\Users\BdE\Desktop\valutebank\valutebank\obj\Debug\valutebank.View.AddNewValute.resources
+C:\Users\FaKe\source\repos\valutebank\valutebank\obj\Debug\valutebank.View.AddNewValute.resources
+C:\Users\FaKe\source\repos\valutebank\valutebank\obj\Debug\valutebank.View.BalanceWithdrawal.resources
+G:\рабоба 4 курс 1 сем\субботний кайф\valutebankMVC\valutebank\bin\Debug\valutebank.exe.config
+G:\рабоба 4 курс 1 сем\субботний кайф\valutebankMVC\valutebank\bin\Debug\valutebank.exe
+G:\рабоба 4 курс 1 сем\субботний кайф\valutebankMVC\valutebank\bin\Debug\valutebank.pdb
+G:\рабоба 4 курс 1 сем\субботний кайф\valutebankMVC\valutebank\obj\Debug\valutebank.Properties.Resources.resources
+G:\рабоба 4 курс 1 сем\субботний кайф\valutebankMVC\valutebank\obj\Debug\valutebank.View.AddCryptoValute.resources
+G:\рабоба 4 курс 1 сем\субботний кайф\valutebankMVC\valutebank\obj\Debug\valutebank.View.AddNewUser.resources
+G:\рабоба 4 курс 1 сем\субботний кайф\valutebankMVC\valutebank\obj\Debug\valutebank.View.AddNewValute.resources
+G:\рабоба 4 курс 1 сем\субботний кайф\valutebankMVC\valutebank\obj\Debug\valutebank.View.BalanceWithdrawal.resources
+G:\рабоба 4 курс 1 сем\субботний кайф\valutebankMVC\valutebank\obj\Debug\valutebank.View.CreateBalance.resources
+G:\рабоба 4 курс 1 сем\субботний кайф\valutebankMVC\valutebank\obj\Debug\valutebank.View.CryptoCurrencyTransfer.resources
+G:\рабоба 4 курс 1 сем\субботний кайф\valutebankMVC\valutebank\obj\Debug\valutebank.View.MainView.resources
+G:\рабоба 4 курс 1 сем\субботний кайф\valutebankMVC\valutebank\obj\Debug\valutebank.csproj.GenerateResource.cache
+G:\рабоба 4 курс 1 сем\субботний кайф\valutebankMVC\valutebank\obj\Debug\valutebank.csproj.CoreCompileInputs.cache
+G:\рабоба 4 курс 1 сем\субботний кайф\valutebankMVC\valutebank\obj\Debug\valutebank.exe
+G:\рабоба 4 курс 1 сем\субботний кайф\valutebankMVC\valutebank\obj\Debug\valutebank.pdb
+G:\рабоба 4 курс 1 сем\субботний кайф\valutebankMVC\valutebank\bin\Debug\xunit.abstractions.dll
+G:\рабоба 4 курс 1 сем\субботний кайф\valutebankMVC\valutebank\bin\Debug\xunit.assert.dll
+G:\рабоба 4 курс 1 сем\субботний кайф\valutebankMVC\valutebank\bin\Debug\xunit.core.dll
+G:\рабоба 4 курс 1 сем\субботний кайф\valutebankMVC\valutebank\bin\Debug\xunit.execution.desktop.dll
+G:\рабоба 4 курс 1 сем\субботний кайф\valutebankMVC\valutebank\bin\Debug\xunit.abstractions.xml
+G:\рабоба 4 курс 1 сем\субботний кайф\valutebankMVC\valutebank\bin\Debug\xunit.assert.xml
+G:\рабоба 4 курс 1 сем\субботний кайф\valutebankMVC\valutebank\bin\Debug\xunit.core.xml
+G:\рабоба 4 курс 1 сем\субботний кайф\valutebankMVC\valutebank\bin\Debug\xunit.execution.desktop.xml
+G:\рабоба 4 курс 1 сем\субботний кайф\valutebankMVC\valutebank\obj\Debug\valutebank.csproj.CopyComplete
+G:\рабоба 4 курс 1 сем\субботний кайф\valutebankMVC\valutebank\obj\Debug\valutebank.csproj.AssemblyReference.cache

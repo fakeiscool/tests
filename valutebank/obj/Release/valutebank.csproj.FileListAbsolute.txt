@@ -1,0 +1,15 @@
+C:\Users\FaKe\source\repos\valutebank\valutebank\bin\Release\valutebank.exe.config
+C:\Users\FaKe\source\repos\valutebank\valutebank\bin\Release\valutebank.exe
+C:\Users\FaKe\source\repos\valutebank\valutebank\bin\Release\valutebank.pdb
+C:\Users\FaKe\source\repos\valutebank\valutebank\obj\Release\valutebank.Properties.Resources.resources
+C:\Users\FaKe\source\repos\valutebank\valutebank\obj\Release\valutebank.View.AddCryptoValute.resources
+C:\Users\FaKe\source\repos\valutebank\valutebank\obj\Release\valutebank.View.AddNewUser.resources
+C:\Users\FaKe\source\repos\valutebank\valutebank\obj\Release\valutebank.View.AddNewValute.resources
+C:\Users\FaKe\source\repos\valutebank\valutebank\obj\Release\valutebank.View.CreateBalance.resources
+C:\Users\FaKe\source\repos\valutebank\valutebank\obj\Release\valutebank.View.CryptoCurrencyTransfer.resources
+C:\Users\FaKe\source\repos\valutebank\valutebank\obj\Release\valutebank.View.MainView.resources
+C:\Users\FaKe\source\repos\valutebank\valutebank\obj\Release\valutebank.csproj.GenerateResource.cache
+C:\Users\FaKe\source\repos\valutebank\valutebank\obj\Release\valutebank.csproj.CoreCompileInputs.cache
+C:\Users\FaKe\source\repos\valutebank\valutebank\obj\Release\valutebank.exe
+C:\Users\FaKe\source\repos\valutebank\valutebank\obj\Release\valutebank.pdb
+C:\Users\FaKe\source\repos\valutebank\valutebank\obj\Release\valutebank.csproj.AssemblyReference.cache
