@@ -1,0 +1,68 @@
+AddToBalanceTest 
+	!	negativenumber -> проверка на отрицательное число при пополнении баланса у пользователя (с помощью данного теста нашёл ошибку т.к. он забирал у пользователя валюту)
+			MainController.AddToBalance(u.BalanceList[0], -100); пользователю "пополняется" отрицательное число
+			Assert.Equal(0, checknum); баланс не изменился, checknum - это баланс пользователя u.BalanceList[x].amount;
+			
+		basetestaddbalance обычная проверка работоспособности функции
+			Assert.Equal(value, checknum); добавляется число на баланс пользователя и проверяется совпадают ли эти числа
+
+BalanceWithdrawaltest
+		negativebalance -> проверка на вывод средств больше чем есть у пользователя
+			Assert.False(BalanceWithdrawal(u.BalanceList[0], 1000)); у пользователя нет столько средств -> ответ будет false
+			
+		baseBalanceWithdrawaltest обычная проверка работоспособности функции
+			Assert.Equal(value, checknum); пользователь имеет value * 2 на своем счету после у него вычитается value и проверяется совпадает ли число на балансе пользователя с value
+
+calctest
+	!	notnumber проверка на НЕ число в функцию Calculate поддается "asd" вместо числа 
+	(проверки на не число не было т.к. обычно данная функция использовалась в вин.формах и доступ к числам пользователь не имел)
+			Assert.Equal(double.NaN,Calculate(valute1, valute2, "asd")); функция возвращает NaN
+		
+		smallnumber проверка на очень малое число на то что оно не округлится к 0
+			Assert.NotEqual(0, amount); тест проходится так как оно не округлилось к 0
+			
+		bignumber проверка на очень большое число, производится операция с Calculate и так же считается такое же число вне функции с такими же действиями
+			double checknumber = (10000000000 / 0.00000001) * 100000;
+			Assert.Equal(checknumber, Calculate(valute1, valute2, "100000"))
+		
+		baseTransfertest  обычная проверка работоспособности функции
+			Assert.Equal(value*2, u.BalanceList[1].amount); 
+			Assert.Equal(value - value, u.BalanceList[0].amount);
+			создаются 2 баланса им пополняют валюту на value число после баланса#1 переводит балансу#2 value число и у баланса#2 должно получится value * 2 число на балансе
+			а у баланса#1 value - value число на балансе
+	
+NoteTests
+		emptynote проверка на строку без текста 
+			Assert.Matches("",u.History[0]);
+		
+		bignote проверка на очень большую строку 71к символов
+			Assert.Matches(value, u.History[0]); value -> текст на 71000 символов
+		
+		nullnote проверка на подачу null в функцию
+			Assert.Null(i.History[0]);
+		funcnote базовое тестирование работоспособности функции
+            MainController.AddNote(i, note);
+			Assert.Matches(note, i.History[0]);
+
+Transfertest
+	!	negativenumber проверка на отрицательное число при переводе другому пользователю (проверки не было но значение не менялось так как проверка сама была в вин.формах, но оно делало запись в истории пользователя)
+			Assert.Equal(-1, Transfer(u.BalanceList[0], u.BalanceList[1], "-100")); -1 является кодом ошибки в данном контексте BalanceList[x] это два разных счёта у пользователя
+		
+		enoughtotransfer проверка на достаточно ли валюты на перевод у пользователя
+			Assert.Equal(-1, Transfer(u.BalanceList[0], u.BalanceList[1], "100")); -1 является кодом ошибки, у пользователя не достаточно средств на перевод
+		
+		correctnumtotransfer проверка на не число в функции
+			Assert.Equal(-1, Transfer(u.BalanceList[0], u.BalanceList[1], "asd")); -1 является кодом ошибки, было подано не число в функцию
+			
+UserTests
+		ForbiddenSymbolsUserTest проверка на запрещенные символы при создании пользователя
+			Assert.False(MainController.AddUser(u)); "!@#$%%^&*()?>/''][./.," входят в список запрещенных символов и не подходят 
+		
+		SameUserTest проверка на добавление пользователя который уже существует
+			Assert.True(MainController.AddUser(u)); проходит проверку т.к. пока что данного пользователя не существует
+            Assert.False(MainController.AddUser(u)); проходит проверку т.к. данный пользователь уже существует поэтому ответ false
+			
+В итоге все 18 тестов проходят проверку из них три с пометкой ! изначально не прошли проверку и нуждались в корректировке кода
+
+
+		
