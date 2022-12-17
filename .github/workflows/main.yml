@@ -8,8 +8,3 @@ jobs:
       - name: XUnit Viewer
         id: xunit-viewer
         uses: AutoModality/action-xunit-viewer@v1  
-      - name: Attach the report
-        uses: actions/upload-artifact@v1
-        with:
-          name: ${{ steps.xunit-viewer.outputs.report-name }}
-          path: ${{ steps.xunit-viewer.outputs.report-dir }}
